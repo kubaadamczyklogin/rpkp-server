@@ -1,0 +1,25 @@
+{
+  "name": "rpkp-server",
+  "version": "1.0.0",
+  "description": "Apollo server with data for rpkp app ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 4000"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "rpkp-server"
+  },
+  "keywords": [
+    "pkp"
+  ],
+  "author": "Jakub Adamczyk",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.6.3",
+    "graphql": "^16.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
