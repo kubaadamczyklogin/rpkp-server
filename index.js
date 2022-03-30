@@ -30,92 +30,117 @@ const typeDefs = gql`
 
 const trainsToTorun = [
   {
-    BydBie: "14:12",
-    TorGlo: "14:42"
+    BydBie: "13:42",
+    TorGlo: "14:21",
+    TorMia: "14:27"
   },
   {
-    BydBie: "14:42",
-    TorGlo: "15:22"
+    BydBie: "14:10",
+    TorGlo: "14:40"
   },
   {
-    BydBie: "15:12",
-    TorGlo: "15:42"
+    BydBie: "14:40",
+    TorGlo: "15:20"
   },
   {
-    BydBie: "15:32",
-    TorGlo: "16:11",
+    BydBie: "15:03",
+    TorGlo: "15:33"
+  },
+  {
+    BydBie: "15:42",
+    TorGlo: "16:21",
     TorMia: "16:26"
   },
   {
-    BydBie: "15:59",
-    TorGlo: "16:33"
+    BydBie: "16:21",
+    TorGlo: "16:55"
   },
   {
-    BydBie: "16:42",
-    TorGlo: "17:21"
+    BydBie: "16:48",
+    TorGlo: "17:27"
   },
   {
-    BydBie: "17:42",
-    TorGlo: "18:21",
-    TorMia: "18:28"
+    BydBie: "17:49",
+    TorGlo: "18:28"
   },
   {
-    BydBie: "18:15",
-    TorGlo: "18:45"
+    BydBie: "18:26",
+    TorGlo: "18:56"
   },
   {
-    BydBie: "18:41",
-    TorGlo: "19:20"
+    BydBie: "18:51",
+    TorGlo: "19:30",
+    TorMia: "19:37"
   },
   {
-    BydBie: "19:42",
-    TorGlo: "20:21",
-    TorMia: "20:25"
+    BydBie: "20:16",
+    TorGlo: "20:54",
+    TorMia: "20:59"
+  },
+  {
+    BydBie: "21:14",
+    TorGlo: "21:44"
+  },
+  {
+    BydBie: "22:42",
+    TorGlo: "23:21"
   }
 ];
 
 const trainsToBydgoszcz = [
   {
-    TorGlo: "4:25",
+    TorGlo: "4:27",
     BydBie: "5:02"
   },
   {
-    TorGlo: "5:06",
-    BydBie: "5:36"
+    TorGlo: "4:58",
+    BydBie: "5:27"
   },
   {
-    TorMia: "5:28",
-    TorGlo: "5:35",
-    BydBie: "6:12"
+    TorMia: "5:26",
+    TorGlo: "5:32",
+    BydBie: "6:09"
   },
   {
-    TorGlo: "6:15",
-    BydBie: "6:44"
+    TorGlo: "6:19",
+    BydBie: "6:48"
   },
   {
-    TorMia: "6:28",
+    TorMia: "6:27",
     TorGlo: "6:35",
     BydBie: "7:13"
   },
   {
-    TorGlo: "7:05",
-    BydBie: "7:33"
+    TorGlo: "7:16",
+    BydBie: "7:44"
   },
   {
-    TorGlo: "7:38",
-    BydBie: "8:14"
+    TorGlo: "7:37",
+    BydBie: "8:13"
   },
   {
-    TorGlo: "8:15",
-    BydBie: "8:44"
+    TorGlo: "8:16",
+    BydBie: "8:45"
   },
   {
-    TorGlo: "8:35",
-    BydBie: "9:10"
+    TorGlo: "8:30",
+    BydBie: "9:05"
   },
   {
     TorGlo: "9:35",
     BydBie: "10:11"
+  },
+  {
+    TorGlo: "10:11",
+    BydBie: "10:41"
+  },
+  {
+    TorGlo: "10:40",
+    BydBie: "11:17"
+  },
+  {
+    TorGlo: "12:20",
+    BydBie: "12:49"
   }
 ];
 
